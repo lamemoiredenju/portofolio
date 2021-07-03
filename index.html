@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nurul Choiriyah</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="navbar">
+		<a href="#about-section" class="in-navbar">About Me</a>
+		<a href="#education-section" class="in-navbar">Education</a>
+		<a href="#project-section" class="in-navbar">Project</a>
+		<a href="#find-section" class="in-navbar">Find Me</a>
+		<a href="#background-contact" class="in-navbar">Contact Me</a>
+	</div>
+
+	<div class="jumbotron">
+		<p id="hai">Hello World!</p>
+		<p id="ini-aku">It's Me, Nju</p>
+		<p>Students of Computer Science and Technology</p>
+		<a href="#about-section"><button class="padding-button" id="button-pertama">More about me</button></a>
+	</div>
+	
+	<div id="about-section">
+		<h1 class="judul">About Me</h1>
+		<div class="flex-about">
+			<img src="nju.jpeg" id="fotoku">
+			<div>
+				<h2 id="text-about">Let me introduce myself</h2>
+				<div id="isi-about">
+					<p>Hi everyone! My name is Nurul Choiriyah, you can call me Nju</p>
+					<p>I was born in Kediri, March 23rd 2001</p>
+					<p>I live in Anggrek Raya Street, Kediri, East Java.</p>
+					<p>Currently I am attending Brawijaya University</p>
+					<p>majoring in Vocational Computer Science and Technology</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="education-section">
+		<h1 class="judul">Education</h1>
+		<div id="sekolah">
+			<h3>SDN Ngasem</h3>
+			<p>2007/2008 - 2012/2013</p>
+			<h3>SMP Negeri 5 Kota Kediri</h3>
+			<p>2013/2014 - 2015/2016</p>
+			<h3>SMA Negeri 1 Kota Kediri</h3>
+			<p>2016/2017 - 2018/2019</p>
+		</div>
+	</div>
+
+	<div id="project-section">
+		<h1 class="judul">Project</h1>
+		<h2 class="sub-judul">Movie Project</h2>
+		<div class="flex-project">
+			<div class="project-movie-iot">
+				<img src="jinngle.png" class="gambar-project">
+				<h4>Jingle Project HUT SMAST</h4>
+				<p>Ini adalah project jingle kelas XI MIPA D</p>
+				<p>dalam memperingati HUT SMAST ke 71</p>
+			</div>
+			<div class="project-movie-iot">
+				<img src="movie.png" class="gambar-project">
+				<h4>Jadilah Pahlawan Untuk Dirimu Sendiri</h4>
+				<p>Ini adalah film pendek tentang remaja yang</p>
+				<p>menjadi seorang pahlawan untuk dirinya sendiri</p>
+				<p>Film ini meraih juara 3 pada event Expo SMAST</p>
+			</div>
+			<div class="project-movie-iot">
+				<img src="lembarkelam.png" class="gambar-project">
+				<h4>Lembar Kelam</h4>
+				<p>Film ini berkisah tentang seseorang yang berhasil</p>
+				<p>keluar dari bayang-bayang hidupnya yang kelam </p>
+			</div>
+		</div>
+		
+		<h2 class="sub-judul">IoT Project</h2>
+		<div class="flex-project">
+			<div class="project-movie-iot">
+				<img src="suhu.jpeg" class="gambar-iot">
+				<a href="https://youtu.be/VDSOhlrkEVU" class="text-iot">
+					<h4>Alat Pendeteksi Suhu dan Kelembapan</h4>
+				</a>
+				<p>Pada project ini, saya menggunakan</p>
+				<p>sensor suhu DHT 11</p>
+			</div>
+			<div class="project-movie-iot">
+				<img src="cahaya.jpeg" class="gambar-iot">
+				<a href="https://youtu.be/lFp6SSNg_Q4" class="text-iot">
+					<h4>Alat Pendeteksi Suhu dan Intensitas Cahaya</h4>
+				</a>
+				<p>Pada project ini, saya menggunakan</p>
+				<p>sensor suhu DHT 11 dan sensor cahaya LDR</p>
+			</div>
+		</div>
+		
+	</div>
+
+	<div id="find-section">
+		<h1 class="judul">Find Me</h1>
+		<div id="flex-tabel">
+			<table>
+				<tr>
+					<th></th>
+					<th></th>
+					<th></th>
+				</tr>
+				<tr>
+					<th><a href="https://www.instagram.com/lamemoiredenju/"><img src="instagram.png" class="icon"></a></th>
+					<th><a href="https://www.youtube.com/channel/UC6xkyfjCyU0GPQGOVRLqPXg"><img src="youtube.png" class="icon"></a></th>
+					<th><a href="https://lamemoiredenju.blogspot.com/"><img src="blogspot.png" class="icon"></a></th>
+				</tr>
+			</table>
+		</div>
+			
+	</div>
+
+	<div id="background-contact">
+		<h1 class="judul">Contact Me</h1>
+		<form>
+			<input type="text" placeholder="Name" class="margin-contact">
+			<br>
+			<input type="email" placeholder="Email" class="margin-contact">
+			<br>
+			<textarea placeholder="Description" class="margin-contact"></textarea>
+			<br>
+			<button type="button" class="padding-button" id="button-kedua" onclick="submitForm()">Send</button>
+		</form>
+	</div>
+
+	<div id="background-cc">
+		<p>Copyright &#169; All rights reserved.</p>
+	</div>
+	<script src="index.js"></script>
+</body>
+</html>

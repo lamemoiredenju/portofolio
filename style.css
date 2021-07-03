@@ -1,0 +1,167 @@
+* {
+	font-family: 'Didact Gothic', sans-serif;'
+}
+
+body {
+	margin: 0;
+	background-color: white
+}
+
+#hai {
+	font-size: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#ini-aku {
+	font-size: 100px;
+	color: #1167b1;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-weight: bold;
+}
+
+.navbar {
+	display: flex;
+	background-color: #187bcd;
+	justify-content: flex-end;
+	padding: 20px;
+	position: sticky;
+	top: 0;
+}
+
+.in-navbar {
+	color: white;
+	margin-right: 20px;
+	text-decoration:none;
+	color: white;
+}
+
+.navbar a:hover {
+	font-weight: bold;
+}
+
+.jumbotron {
+	padding: 50px;
+	background-color:#2a9df4;
+	text-align: center;
+	color: white;
+}
+
+.judul {
+	text-align: center;
+	padding-top: 30px;
+	color: #1167b1;
+}
+
+#text-about {
+	color: #2a9df4;
+}
+
+.flex-about {
+	display: flex;
+	justify-content: center;
+}
+
+#fotoku {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	padding-right: 30px;
+}
+
+#isi-about {
+	padding-top: 20px;
+}
+
+#sekolah {
+	text-align: center;
+}
+
+table {
+	margin: 30px;
+}
+
+.sub-judul {
+	text-align: center;
+	color: #2a9df4;
+	padding: 10px;
+}
+.flex-project {
+	display: flex;
+	position: center;
+	padding: 30px;
+	object-fit: cover;
+	justify-content: center;
+}
+
+.gambar-project {
+	height: 200px;
+}
+
+.project-movie-iot {
+	position: center;
+	padding-right: 30px;
+}
+
+.gambar-iot {
+	height: 200px;
+}
+
+.icon {
+	height: 80px;
+	padding: 30px;
+}
+
+#flex-tabel {
+	display: flex;
+	justify-content: center;
+}
+
+.text-iot {
+	text-decoration: none;
+	color: black;
+}
+
+#background-contact {
+	background-color: #d0efff;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+.margin-contact {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 400px;
+	height: 20px;
+}
+
+.padding-button {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#button-pertama {
+	color: #03254c;
+	background-color: white;
+	margin-top: 50px;
+}
+
+#button-kedua {
+	color: white;
+	background-color: #187bcd;
+	margin-top: 30px;
+}
+
+#background-cc {
+	color: white;
+	background-color: #187bcd;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
